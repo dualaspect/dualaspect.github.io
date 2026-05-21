@@ -5,16 +5,19 @@
 \usepackage{textcomp}
 \usepackage{amssymb}
 \usepackage{newtxtext} \usepackage{newtxmath}
-\usepackage{amsmath, amssymb}
-\newtheorem{problem}{Problem}
-\newtheorem{example}{Example}
-\newtheorem{lemma}{Lemma} \newtheorem{theorem}{Theorem}
-\newtheorem{problem}{Problem}
-\newtheorem{example}{Example} \newtheorem{definition}{Definition}
-\newtheorem{lemma}{Lemma}
-\newtheorem{theorem}{Theorem}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{expex}
+\usepackage{forest}
 \DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n}
 \usepackage{parskip}
+\newcommand{\verbf}[1]{\textcolor{blue}{#1}}
+\newcommand{\subjf}[1]{\underline{#1}}
+\newcommand{\objf}[1]{\textcolor{red}{#1}}
+\newcommand{\tensef}[1]{\colorbox{yellow}{#1}}
+\newcommand{\noun}[1]{\textsc{#1}}
+\newcommand{\adj}[1]{\textit{#1}}
+\newcommand{\prep}[1]{\textcolor{purple}{#1}}
 
 \begin{document}
 
@@ -368,6 +371,133 @@ nous endormons.
         ; là-bas, c'est Orion», padre señala primero una constelación cercana
         en el cielo visible y luego otra más distante.
 \end{itemize}
+
+\pagebreak 
+
+
+
+\begin{forest}
+[S
+  [NP [Je]]
+  [VP
+    [V [me suis allongé]]
+    [PP [sur le lit]]
+  ]
+]
+\end{forest}
+
+\ex
+\begingl
+\gla Je me suis allongé sur le lit //
+\glb I REFL am laid.down on the bed //
+\glft “I lay down on the bed.” //
+\endgl
+\xe
+\noun{chien} \verbf{court} \prep{dans} le jardin 
+\pagebreak  
+
+La tombe dit à la rose :\newline
+– Des pleurs dont l’aube t’arrose\newline
+Que fais-tu, fleur des amours ? \newline
+La rose dit à la tombe : \newline
+– Que fais-tu de ce qui tombe\newline
+Dans ton gouffre ouvert toujours ? \newline
+
+La rose dit : – Tombeau sombre, \newline
+De ces pleurs je fais dans l’ombre\newline
+Un parfum d’ambre et de miel. \newline
+La tombe dit : – Fleur plaintive, \newline
+De chaque âme qui m’arrive\newline
+Je fais un ange du ciel ! \newline
+
+
+\begin{center}
+\begin{forest}
+[S
+  [NP
+    [Det [La]]
+    [N [tombe]]
+  ]
+  [VP
+    [V [dit]]
+    [PP
+      [P [à]]
+      [NP
+        [Det [la]]
+        [N [rose]]
+      ]
+    ]
+  ]
+]
+\end{forest}
+
+\begin{forest}
+[S
+  [PP
+    [NP
+      [N [pleurs]]
+      [CP
+        [C [dont]]
+        [S
+          [NP
+            [Det [l']]
+            [N [aube]]
+          ]
+          [VP
+            [NP [t']]
+            [V [arrose]]
+          ]
+        ]
+      ]
+    ]
+  ]
+  [VP
+    [V [fais]]
+    [NP
+      [Pro [tu]]
+    ]
+    [NP
+      [N [fleur]]
+      [PP
+        [P [de]]
+        [NP
+          [Det [les]]
+          [N [amours]]
+        ]
+      ]
+    ]
+  ]
+]
+\end{forest}
+
+\end{center}
+
+\pagebreak
+
+Nous sommes tous, à toute heure, assiégés par des forces infinies qui nous
+invitent à la quiétude, au conformisme et à l'idiotie. Dans tout les sujets sour
+lesquels nous pensons nous formons, par précipitation ou négligence, à des
+opinions sans mérite. Dans tout les conversations, des paroles vides, des
+paroles qui ne sont pas de notre cœur, veulent être dites. La main séductrice de
+la paresse intellectuele nous appelle sensuellement. C'est la lutte véritable.
+Nous devons cultiver une intransigeance saine, une révolte adolescente. Nous
+devons nous éloigner des conversations vaines. Nous devons échapper à la
+frivolité. À chaque fois que nous sentions que nous perdons notre temps, nous
+devons nous rappeler: dans cet paradis il y a des choses qui peuvent
+m'émerveiller et que je dois découvrir.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
