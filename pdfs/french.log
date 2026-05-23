@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  21 MAY 2026 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  22 MAY 2026 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -816,41 +816,113 @@ Overfull \hbox (50.79611pt too wide) in paragraph at lines 84--96
  [][] 
  []
 
+./french.tex:102: Undefined control sequence.
+l.102 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:104: Undefined control sequence.
+<recently read> \midrule 
+                         
+l.104 \midrule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:111: Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.111 \bottomrule
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (28.11607pt too wide) in paragraph at lines 101--113
+ [][] 
+ []
+
+./french.tex:120: Undefined control sequence.
+l.120 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:122: Undefined control sequence.
+<recently read> \midrule 
+                         
+l.122 \midrule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:129: Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.129 \bottomrule
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (50.40015pt too wide) in paragraph at lines 119--131
+ [][] 
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] [2]
-Overfull \hbox (2.7393pt too wide) in paragraph at lines 145--156
+Overfull \hbox (2.7393pt too wide) in paragraph at lines 180--191
 []$\LMS/ntxsy/m/n/12 x$ \T1/ntxtlf/m/it/12 Cauchemar. \T1/ntxtlf/m/n/12 J'ai fait un cauchemar très in-quié-tant. Mon père de-vait m'administrer
  []
 
-[3] [4] [5] [6] [7] [8]
+[3] [4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 331.
+(Font)              scaled to size 8.8pt on input line 366.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 333.
+(Font)              scaled to size 10.0pt on input line 368.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 333.
+(Font)              scaled to size 7.3pt on input line 368.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 333.
+(Font)              scaled to size 10.0pt on input line 368.
 
-Overfull \hbox (6.29797pt too wide) in paragraph at lines 365--368
+Overfull \hbox (6.29797pt too wide) in paragraph at lines 400--403
 []\T1/ntxtlf/m/n/12 En ^^Snous sommes tous al-longés^^T, ^^Stous^^T sig-nifica ^^Sto-dos^^T o ^^Sto-dos nosotros^^T.
  []
 
-[9]
+[10]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 396.
- [10{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 399--405
+(Font)              scaled to size 12.0pt on input line 431.
+ [11{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 434--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--412
+Underfull \hbox (badness 10000) in paragraph at lines 441--447
 
  []
 
-[11] [12] [13] (./french.aux)
+[12] [13] [14] (./french.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -859,16 +931,16 @@ L3 programming layer <2020/03/25>
 Here is how much of TeX's memory you used:
  34484 strings out of 474222
  753969 string characters out of 5748733
- 1944975 words of memory out of 5000000
+ 1945975 words of memory out of 5000000
  56307 multiletter control sequences out of 15000+600000
  610088 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  161i,8n,145p,1629b,3721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on french.pdf (13 pages, 150813 bytes).
+Output written on french.pdf (14 pages, 153206 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
