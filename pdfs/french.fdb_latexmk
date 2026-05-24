@@ -1,5 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1779503064.55398 "french.tex" "french.pdf" "french" 1779503065.88924 2
+["pdflatex"] 1779590864.93028 "french.tex" "french.pdf" "french" 1779590867.72741 2
+  "../Images/LesOrigens.png" 1779555471.57435 2567994 6f850972b3e2df447084b360644d7219 ""
+  "../Images/Redon2.jpg" 1779564098.85765 134697 150892248cccf581d2946216029ee752 ""
+  "../Images/Redon3.jpeg" 1779566641.247 571579 98fe3ba0c658b45bd632ccb9e529b34c ""
+  "../Images/Redon4.png" 1779573725.85899 888632 c8b6596d56988b8605615a23a5e9b909 ""
   "/etc/texmf/web2c/texmf.cnf" 1740662799.63242 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1698694482 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1698694482 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -195,8 +199,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1740670969.59643 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740670991 8214096 2cc5ed7d441cd7dd7f6cf9e30d4bb5a5 ""
-  "french.aux" 1779503065.82827 1100 c2520a85bbf837861d1ee0abe6668af9 "pdflatex"
-  "french.tex" 1779503065.72932 23934 3a05c007d8998d2da8f9dbe8f1be29aa ""
+  "french.aux" 1779590867.60286 1820 44d9b4e664b5466fdffccccaa0d65ce1 "pdflatex"
+  "french.tex" 1779590862.6474 30560 ccb4d287f0107250613b50a0bed8c2a8 ""
   (generated)
   "french.aux"
   "french.log"

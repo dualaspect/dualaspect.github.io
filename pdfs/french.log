@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  22 MAY 2026 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  23 MAY 2026 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,7 +685,14 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 22.
- (./french.aux)
+ (./french.aux
+
+LaTeX Warning: Label `fig:redon2' multiply defined.
+
+
+LaTeX Warning: Label `fig:redon2' multiply defined.
+
+)
 \openout1 = `french.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 22.
@@ -922,25 +929,156 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--447
 
  []
 
-[12] [13] [14] (./french.aux)
+[12] [13] [14]
+<../Images/LesOrigens.png, id=57, 1614.03pt x 981.6675pt>
+File: ../Images/LesOrigens.png Graphic file (type png)
+<use ../Images/LesOrigens.png>
+Package pdftex.def Info: ../Images/LesOrigens.png  used on input line 575.
+(pdftex.def)             Requested size: 390.0pt x 237.19278pt.
+
+
+./french.tex:591: LaTeX Error: Unicode character ά (U+03AC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.591 qui a une forme. C'est le problème du xά
+                                                ος hésiodique, que Darwin...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./french.tex:591: LaTeX Error: Unicode character ο (U+03BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.591 qui a une forme. C'est le problème du xάο
+                                                  ς hésiodique, que Darwin...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./french.tex:591: LaTeX Error: Unicode character ς (U+03C2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.591 ... une forme. C'est le problème du xάος
+                                                   hésiodique, que Darwin r...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (0.69533pt too wide) in paragraph at lines 583--600
+[]\T1/ntxtlf/m/n/12 Deuxi�mement, Re-don com-pre-nait les prob-l�mes pos�s par la th�orie de l'�volution
+ []
+
+
+Overfull \hbox (4.51936pt too wide) in paragraph at lines 583--600
+\T1/ntxtlf/m/n/12 de mani�re plus so-phis-tiqu�e que ses con-tem-po-rains. L'Europ�en moyen s'inqui�tait
+ []
+
+[15]
+
+./french.tex:602: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.602 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<../Images/Redon2.jpg, id=61, 597.23125pt x 803.0pt>
+File: ../Images/Redon2.jpg Graphic file (type jpg)
+<use ../Images/Redon2.jpg>
+Package pdftex.def Info: ../Images/Redon2.jpg  used on input line 604.
+(pdftex.def)             Requested size: 390.0pt x 524.36987pt.
+
+./french.tex:630: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<../Images/Redon4.png, id=62, 722.7pt x 794.97pt>
+File: ../Images/Redon4.png Graphic file (type png)
+<use ../Images/Redon4.png>
+Package pdftex.def Info: ../Images/Redon4.png  used on input line 632.
+(pdftex.def)             Requested size: 390.0pt x 428.99841pt.
+[16 <../Images/LesOrigens.png (PNG copy)>] [17 <../Images/Redon2.jpg>] [18 <../Images/Redon4.png>]
+
+./french.tex:651: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.651 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<../Images/Redon3.jpeg, id=74, 1578.89874pt x 2045.6425pt>
+File: ../Images/Redon3.jpeg Graphic file (type jpg)
+<use ../Images/Redon3.jpeg>
+Package pdftex.def Info: ../Images/Redon3.jpeg  used on input line 653.
+(pdftex.def)             Requested size: 390.0pt x 505.29144pt.
+./french.tex:671: Missing $ inserted.
+<inserted text> 
+                $
+l.671 ...w.researchgate.net/publication/345364261_
+                                                  Into_the_Primeval_Slime_Bo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./french.tex:672: Missing $ inserted.
+<inserted text> 
+                $
+l.672 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (224.24615pt too wide) in paragraph at lines 671--672
+[]\T1/ntxtlf/m/n/12 [1]: https://www.researchgate.net/publication/345364261$[]\OML/ntxmi/m/it/12 nto[]he[]rimeval[]lime[]ody[]nd[]elf[]n[]edon[]s[]volutionary[]niverse$ 
+ []
+
+[19] [20 <../Images/Redon3.jpeg>] (./french.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 34484 strings out of 474222
- 753969 string characters out of 5748733
+ 34523 strings out of 474222
+ 754881 string characters out of 5748733
  1945975 words of memory out of 5000000
- 56307 multiletter control sequences out of 15000+600000
- 610088 words of font info for 111 fonts, out of 8000000 for 9000
+ 56342 multiletter control sequences out of 15000+600000
+ 611451 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  161i,8n,145p,1629b,3721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on french.pdf (14 pages, 153206 bytes).
+Output written on french.pdf (20 pages, 4432316 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
