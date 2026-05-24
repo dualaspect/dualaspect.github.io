@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  23 MAY 2026 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  24 MAY 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1035,28 +1035,29 @@ File: ../Images/Redon3.jpeg Graphic file (type jpg)
 <use ../Images/Redon3.jpeg>
 Package pdftex.def Info: ../Images/Redon3.jpeg  used on input line 653.
 (pdftex.def)             Requested size: 390.0pt x 505.29144pt.
-./french.tex:671: Missing $ inserted.
+[19] [20 <../Images/Redon3.jpeg>]
+./french.tex:707: Missing $ inserted.
 <inserted text> 
                 $
-l.671 ...w.researchgate.net/publication/345364261_
+l.707 ...w.researchgate.net/publication/345364261_
                                                   Into_the_Primeval_Slime_Bo...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./french.tex:672: Missing $ inserted.
+./french.tex:708: Missing $ inserted.
 <inserted text> 
                 $
-l.672 
+l.708 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (224.24615pt too wide) in paragraph at lines 671--672
+Overfull \hbox (224.24615pt too wide) in paragraph at lines 707--708
 []\T1/ntxtlf/m/n/12 [1]: https://www.researchgate.net/publication/345364261$[]\OML/ntxmi/m/it/12 nto[]he[]rimeval[]lime[]ody[]nd[]elf[]n[]edon[]s[]volutionary[]niverse$ 
  []
 
-[19] [20 <../Images/Redon3.jpeg>] (./french.aux)
+[21] (./french.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1075,10 +1076,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  161i,8n,145p,1629b,3721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on french.pdf (20 pages, 4432316 bytes).
+Output written on french.pdf (21 pages, 4434849 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
