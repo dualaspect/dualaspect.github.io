@@ -1,5 +1,5 @@
 ---
-title: Cluster-based permutation testing for dummies
+title: A friendly introduction to cluster-based permutation testing 
 categories: [Science]
 ---
 

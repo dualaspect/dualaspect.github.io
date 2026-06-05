@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1779648496.29231 "french.tex" "french.pdf" "french" 1779648497.80665 2
+["pdflatex"] 1780456668.41001 "french.tex" "french.pdf" "french" 1780456671.26836 2
   "../Images/LesOrigens.png" 1779555471.57435 2567994 6f850972b3e2df447084b360644d7219 ""
   "../Images/Redon2.jpg" 1779564098.85765 134697 150892248cccf581d2946216029ee752 ""
   "../Images/Redon3.jpeg" 1779566641.247 571579 98fe3ba0c658b45bd632ccb9e529b34c ""
@@ -7,6 +7,7 @@
   "/etc/texmf/web2c/texmf.cnf" 1740662799.63242 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1698694482 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1698694482 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
+  "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -20,6 +21,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm" 1698694482 11576 2c5382fb8ab907c80b8ce60923e4c09a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm" 1698694482 11540 3e196d34de484a386065c6c3b6e4dc74 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm" 1600636029 3008 ca0c83ca288d9f1c5d2fca0e8e268f10 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm" 1690487162 3056 db59b44fb00cc29b676bd92c4dc6750f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm" 1690487162 12284 95f93490cf258dce1810ed350b5ea771 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm" 1698694482 11592 bf4aeee76faffbe00698e903a615f219 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm" 1589834365 760 e8ec875a87aa119f1af7ea4be48da9e8 ""
@@ -35,12 +37,14 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm" 1693080977 1560 755acbe6da75f914298c79fa8bb324fd ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm" 1569879884 1836 3af1bb0996e7f6070b70151de6395c2c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm" 1699567298 900 fc8190d6de1e520c751c99f1e4e5fe0a ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm" 1634244313 1716 a6b113dfe808a82f532d14b1f370053f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm" 1699567298 1660 d580b6f461bbd2ab53b1fd3851108c0e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb" 1572128992 32409 1452fa0ce4fabfb48acd5d077e296f6d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb" 1699567298 45943 7899c7ea4fdd83f3625178689816dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb" 1698694482 255251 958c6ad4e5518904a53cf1118c612893 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb" 1698694482 286816 82db2bfe6920054b1a43661c07078412 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb" 1698694482 248316 6c047e35119cde1bffb3263909816feb ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf" 1583272976 956 44be8e0aea9c6d145fc21c9948a6b4b5 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi.vf" 1622581641 2612 4fd3785b7e98639f68f908a08c642071 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy.vf" 1699567298 1804 0d5405efa3655e9ce85ebf4efa9b7f0b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -199,8 +203,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1740670969.59643 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740670991 8214096 2cc5ed7d441cd7dd7f6cf9e30d4bb5a5 ""
-  "french.aux" 1779648497.73635 1820 d9e0ebb727cea56f4a2f260f43cdcf58 "pdflatex"
-  "french.tex" 1779648495.34777 33137 b4283d6ef735e337dcff0e1d8ba9795c ""
+  "french.aux" 1780456671.13663 2006 d532ceca003db7ec79f6ab21de2f1595 "pdflatex"
+  "french.tex" 1780456666.45873 41240 e57a94b5cc531e21a0e0ca4cf4c94af3 ""
   (generated)
   "french.aux"
   "french.log"

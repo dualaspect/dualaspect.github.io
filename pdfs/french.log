@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  24 MAY 2026 15:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.27)  3 JUN 2026 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -787,55 +787,19 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 46.
 
-./french.tex:85: Undefined control sequence.
-l.85 \toprule
-             
+./french.tex:100: Undefined control sequence.
+l.100 \toprule
+              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-./french.tex:87: Undefined control sequence.
-<recently read> \midrule 
-                         
-l.87 \midrule
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./french.tex:94: Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.94 \bottomrule
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (50.79611pt too wide) in paragraph at lines 84--96
- [][] 
- []
 
 ./french.tex:102: Undefined control sequence.
-l.102 \toprule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./french.tex:104: Undefined control sequence.
 <recently read> \midrule 
                          
-l.104 \midrule
+l.102 \midrule
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -843,10 +807,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./french.tex:111: Undefined control sequence.
+./french.tex:109: Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.111 \bottomrule
+l.109 \bottomrule
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -855,12 +819,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (28.11607pt too wide) in paragraph at lines 101--113
+Overfull \hbox (50.79611pt too wide) in paragraph at lines 99--111
  [][] 
  []
 
-./french.tex:120: Undefined control sequence.
-l.120 \toprule
+./french.tex:117: Undefined control sequence.
+l.117 \toprule
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -868,10 +832,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./french.tex:122: Undefined control sequence.
+./french.tex:119: Undefined control sequence.
 <recently read> \midrule 
                          
-l.122 \midrule
+l.119 \midrule
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -879,10 +843,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./french.tex:129: Undefined control sequence.
+./french.tex:126: Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.129 \bottomrule
+l.126 \bottomrule
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -891,41 +855,77 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (50.40015pt too wide) in paragraph at lines 119--131
+Overfull \hbox (28.11607pt too wide) in paragraph at lines 116--128
+ [][] 
+ []
+
+./french.tex:135: Undefined control sequence.
+l.135 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:137: Undefined control sequence.
+<recently read> \midrule 
+                         
+l.137 \midrule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./french.tex:144: Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.144 \bottomrule
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (50.40015pt too wide) in paragraph at lines 134--146
  [][] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] [2]
-Overfull \hbox (2.7393pt too wide) in paragraph at lines 180--191
+Overfull \hbox (2.7393pt too wide) in paragraph at lines 195--206
 []$\LMS/ntxsy/m/n/12 x$ \T1/ntxtlf/m/it/12 Cauchemar. \T1/ntxtlf/m/n/12 J'ai fait un cauchemar tr�s in-qui�-tant. Mon p�re de-vait m'administrer
  []
 
 [3] [4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 366.
+(Font)              scaled to size 8.8pt on input line 381.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 368.
+(Font)              scaled to size 10.0pt on input line 383.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 368.
+(Font)              scaled to size 7.3pt on input line 383.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 368.
+(Font)              scaled to size 10.0pt on input line 383.
 
-Overfull \hbox (6.29797pt too wide) in paragraph at lines 400--403
+Overfull \hbox (6.29797pt too wide) in paragraph at lines 415--418
 []\T1/ntxtlf/m/n/12 En ^^Snous sommes tous al-long�s^^T, ^^Stous^^T sig-nifica ^^Sto-dos^^T o ^^Sto-dos nosotros^^T.
  []
 
 [10]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 431.
+(Font)              scaled to size 12.0pt on input line 446.
  [11{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 434--440
+Underfull \hbox (badness 10000) in paragraph at lines 449--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--447
+Underfull \hbox (badness 10000) in paragraph at lines 456--462
 
  []
 
@@ -933,131 +933,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--447
 <../Images/LesOrigens.png, id=57, 1614.03pt x 981.6675pt>
 File: ../Images/LesOrigens.png Graphic file (type png)
 <use ../Images/LesOrigens.png>
-Package pdftex.def Info: ../Images/LesOrigens.png  used on input line 575.
+Package pdftex.def Info: ../Images/LesOrigens.png  used on input line 590.
 (pdftex.def)             Requested size: 390.0pt x 237.19278pt.
 
 
-./french.tex:591: LaTeX Error: Unicode character ά (U+03AC)
+./french.tex:606: LaTeX Error: Unicode character ά (U+03AC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591 qui a une forme. C'est le problème du xά
+l.606 qui a une forme. C'est le problème du xά
                                                 ος hésiodique, que Darwin...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./french.tex:591: LaTeX Error: Unicode character ο (U+03BF)
+./french.tex:606: LaTeX Error: Unicode character ο (U+03BF)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591 qui a une forme. C'est le problème du xάο
+l.606 qui a une forme. C'est le problème du xάο
                                                   ς hésiodique, que Darwin...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./french.tex:591: LaTeX Error: Unicode character ς (U+03C2)
+./french.tex:606: LaTeX Error: Unicode character ς (U+03C2)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591 ... une forme. C'est le problème du xάος
+l.606 ... une forme. C'est le problème du xάος
                                                    hésiodique, que Darwin r...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (0.69533pt too wide) in paragraph at lines 583--600
+Overfull \hbox (0.69533pt too wide) in paragraph at lines 598--615
 []\T1/ntxtlf/m/n/12 Deuxi�mement, Re-don com-pre-nait les prob-l�mes pos�s par la th�orie de l'�volution
  []
 
 
-Overfull \hbox (4.51936pt too wide) in paragraph at lines 583--600
+Overfull \hbox (4.51936pt too wide) in paragraph at lines 598--615
 \T1/ntxtlf/m/n/12 de mani�re plus so-phis-tiqu�e que ses con-tem-po-rains. L'Europ�en moyen s'inqui�tait
  []
 
 [15]
 
-./french.tex:602: LaTeX Error: Unknown float option `H'.
+./french.tex:617: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.602 \begin{figure}[H]
+l.617 \begin{figure}[H]
                        
 Option `H' ignored and `p' used.
 
 <../Images/Redon2.jpg, id=61, 597.23125pt x 803.0pt>
 File: ../Images/Redon2.jpg Graphic file (type jpg)
 <use ../Images/Redon2.jpg>
-Package pdftex.def Info: ../Images/Redon2.jpg  used on input line 604.
+Package pdftex.def Info: ../Images/Redon2.jpg  used on input line 619.
 (pdftex.def)             Requested size: 390.0pt x 524.36987pt.
 
-./french.tex:630: LaTeX Error: Unknown float option `H'.
+./french.tex:645: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630 \begin{figure}[H]
+l.645 \begin{figure}[H]
                        
 Option `H' ignored and `p' used.
 
 <../Images/Redon4.png, id=62, 722.7pt x 794.97pt>
 File: ../Images/Redon4.png Graphic file (type png)
 <use ../Images/Redon4.png>
-Package pdftex.def Info: ../Images/Redon4.png  used on input line 632.
+Package pdftex.def Info: ../Images/Redon4.png  used on input line 647.
 (pdftex.def)             Requested size: 390.0pt x 428.99841pt.
 [16 <../Images/LesOrigens.png (PNG copy)>] [17 <../Images/Redon2.jpg>] [18 <../Images/Redon4.png>]
 
-./french.tex:651: LaTeX Error: Unknown float option `H'.
+./french.tex:666: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 \begin{figure}[H]
+l.666 \begin{figure}[H]
                        
 Option `H' ignored and `p' used.
 
 <../Images/Redon3.jpeg, id=74, 1578.89874pt x 2045.6425pt>
 File: ../Images/Redon3.jpeg Graphic file (type jpg)
 <use ../Images/Redon3.jpeg>
-Package pdftex.def Info: ../Images/Redon3.jpeg  used on input line 653.
+Package pdftex.def Info: ../Images/Redon3.jpeg  used on input line 668.
 (pdftex.def)             Requested size: 390.0pt x 505.29144pt.
 [19] [20 <../Images/Redon3.jpeg>]
-./french.tex:707: Missing $ inserted.
+./french.tex:722: Missing $ inserted.
 <inserted text> 
                 $
-l.707 ...w.researchgate.net/publication/345364261_
+l.722 ...w.researchgate.net/publication/345364261_
                                                   Into_the_Primeval_Slime_Bo...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./french.tex:708: Missing $ inserted.
+./french.tex:723: Missing $ inserted.
 <inserted text> 
                 $
-l.708 
+l.723 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (224.24615pt too wide) in paragraph at lines 707--708
+Overfull \hbox (224.24615pt too wide) in paragraph at lines 722--723
 []\T1/ntxtlf/m/n/12 [1]: https://www.researchgate.net/publication/345364261$[]\OML/ntxmi/m/it/12 nto[]he[]rimeval[]lime[]ody[]nd[]elf[]n[]edon[]s[]volutionary[]niverse$ 
  []
 
-[21] (./french.aux)
+[21] [22] [23]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 776.
+ [24{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [25] [26] [27] (./french.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1068,18 +1071,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34523 strings out of 474222
- 754881 string characters out of 5748733
- 1945975 words of memory out of 5000000
- 56342 multiletter control sequences out of 15000+600000
- 611451 words of font info for 115 fonts, out of 8000000 for 9000
+ 34561 strings out of 474222
+ 755466 string characters out of 5748733
+ 1947975 words of memory out of 5000000
+ 56373 multiletter control sequences out of 15000+600000
+ 630143 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  161i,8n,145p,1629b,3721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on french.pdf (21 pages, 4434849 bytes).
+Output written on french.pdf (27 pages, 4446020 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
