@@ -147,7 +147,7 @@ cluster that arises purely by chance in each iteration, we control the
 Family-Wise Error Rate (FWER). We are effectively building a distribution of
 "the worst false positives that could happen by chance.
 
-- **Repeat**: Repeat this shuffling process $N$ with $N$ sufficiently large.
+- **Repeat**: Repeat this shuffling process $N$ times, with $N$ sufficiently large.
 
 This produces a distribution of maximum cluster masses under the null
 hypothesis. All that is left is to compute the $p$-value.
