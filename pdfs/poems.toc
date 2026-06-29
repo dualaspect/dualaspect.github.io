@@ -45,4 +45,5 @@
 \contentsline {subsection}{En casa de mi padre}{52}{}%
 \contentsline {subsection}{Algo}{53}{}%
 \contentsline {subsection}{La aurora de tu muerte}{54}{}%
-\contentsline {subsection}{No love goes to waste}{55}{}%
+\contentsline {subsection}{Los sueños}{55}{}%
+\contentsline {subsection}{No love goes to waste}{56}{}%
