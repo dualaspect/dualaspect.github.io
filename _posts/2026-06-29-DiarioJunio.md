@@ -1,0 +1,47 @@
+---
+title: Una entrada de diario irreflexiva 
+categories: [Personal]
+---
+
+
+La bifurcación que se abre ante mí es la siguiente: o bien la vida no tiene
+sentido, en cuyo caso no veo otro camino que la muerte voluntaria; o bien la
+vida lo tiene, en cuyo caso dicho sentido determinará el camino. Me rehuso a
+conceder a la vida un sentido sobrenatural: la vida es parte de la naturaleza.
+El único otro tipo de sentido que puede dársele es ético. Por lo que mi dilema
+se reduce al siguiente: o logro dotar a mi vida de un sentido ético, o abrazo la
+muerte.
+
+Uno podría decir: ¿por qué morir, si estás avanzando en la vida? Pero todo lo
+que he logrado es vano. Hace cuatro años lo hubiera dado todo por, digamos,
+publicar un trabajo propio en un journal de *Nature*, por trabajar en ciencia,
+por recorrer el mundo, pero habiéndolo alcanzado me digo a mí mismo, ¿y qué?
+Frente a mí hay una silla, una mesa, una almohada: ¿qué me distingue de estas
+cosas? En mi vida romántica o bien disimulo esta forma de sentirme o, al
+mostrarla, soy del todo incomprendido. Las personas responden con extrema
+facilidad a la pregunta de cuál es el sentido de la vida, como si preguntáramos
+cuál es el color del cielo. La respuesta de la filosofía analítica, que nos dice
+que la pregunta no tiene sentido, no ayuda en nada. Las sentencias de la ética,
+como Wittgenstein mostró irrefutablemente, no se distinguen en nada de otras
+proposiciones. Según él existe algo que nos permite trascender lo proposicional,
+algo que nos permite ir más allá del mundo. ¿Pero qué es?
+
+Esta mañana desperté temprano y, antes de trabajar, fui a dar de comer a los
+pájaros en un parque y a leer las enseñanzas de Cristo. En verdad, fue el más
+sabio de los hombres. Me parece a mí *que si es que* existe un sentido ético de
+la vida, debe ser el de la ética cristiana. A su vez, cuando me siento solo, que
+es la mayor parte del tiempo, siento algo así como «Dios te está llamando»
+—aunque esas palabras son inexactas—. Me parece a mí que es verdadero que «somos
+la luz del mundo»: en la tiniebla universal arde la luz de la consciencia. Pero
+estoy lleno de sombras y la línea que divide al mal del bien delimita mi vida.
+
+Desde un punto de vista psicológico, soy consciente que existe una tristeza
+subyaciente a a este deseo de descubrir si la vida tiene sentido y de morir si
+no lo tiene. Soy consciente, además, de que esta tristeza, que es como el
+manantial de todas estas inquietudes, está directamente atada al suicidio de
+Paulina. Por predecible que fuera, no estaba preparado para perder de esa manera
+a una mujer que fue por tantos años mi amante, mi amiga, mi compañera: lejos o
+cerca, era todas estas cosas. Desde que consumé mi duelo, algo que sucedió más
+de un año después de su muerte, todo en mí es un agua removida. Hundo las manos
+y trato de asir algo, como el ciego que busca con las manos una perla a plena
+luz del día. El tiempo dirá.
