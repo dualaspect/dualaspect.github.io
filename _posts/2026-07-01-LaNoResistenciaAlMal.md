@@ -1,0 +1,23 @@
+---
+title: La no-resistencia al mal 
+categories: [Personal]
+---
+
+Refiriéndose a los practicantes de la no-resistencia al mal, Tolstoi nos dice
+que incluso si fueran una diminuta minoría, sujeta a nada más que el ridículo y
+el desprecio del mundo, el mundo, «sin notarlo y sin sentirse obligado a ello,
+se volvería más sabio y mejor por obra de esta influencia secreta». Jesús, que
+como mínimo era un hombre sabio, enseñó que «somos la luz del mundo»: basta con
+practicar una ética compasiva para dar luz a las tinieblas. El sabio checo Petr
+Chelčický, una figura curiosa y largamente ignorada, enseñó que todo practicante
+de una ética cristiana debería negarse a la violencia y, en particular, al
+servicio militar, notando que si los pobres se negaran los ricos no tendrían a
+quién mandar a luchar por ellos. E incluso cierto guerrero, sin duda ajeno a la
+doctrina de la no-resistencia al mal, enseñó que la ternura es el bien que nunca
+debe perderse. 
+
+La no-resistencia al mal es una doctrina poco difundida, todavía menos
+comprendida, y frecuentemente ridiculizada. Es, sin embargo, la única ética
+superadora de la violencia, el ejercicio del poder, y la dominación de fuertes
+sobre débiles. Y cuantos más las practiquemos, más sentirá el mundo la
+«influencia secreta» de la compasión y el amor.
