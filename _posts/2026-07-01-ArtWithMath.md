@@ -5,7 +5,7 @@ categories: [Personal, Science]
 
 Las matemáticas y la programación son, a mi juicio, una forma de la poesía. La
 programación se condice tanto con esta definición que incluso se escribe en
-verso, aunque esta sea la similitud más superficial entre código y poesía. Lo
+verso, aunque esta sea la similitud más superficial entre ambas. Lo
 cierto es que la poesía, o al menos la buena poesía, satisface ciertas
 propiedades que las matemáticas y el código también: $(a)$ es doblemente
 susceptible a una apreciación abstracta y a una apreciación visual; $(b)$ aunque
