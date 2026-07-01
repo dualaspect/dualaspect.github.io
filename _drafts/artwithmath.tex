@@ -1,0 +1,132 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{hyperref}
+
+% Configuracion de los enlaces y referencias
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Animacion del Atractor de Clifford},
+}
+
+% Configuracion del resaltado de sintaxis para Python
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{blue},
+    stringstyle=\color{olive},
+    commentstyle=\color{gray},
+    frame=single,
+    breaklines=true,
+    showstringspaces=false
+}
+
+\title{Generación y Animación Computacional:\\El Atractor de Clifford}
+\author{Documentación Técnica y Metodología}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introducción a los Atractores}
+Un atractor representa el conjunto de estados (o puntos) hacia los cuales un sistema dinámico tiende a evolucionar con el tiempo, sin importar cuáles sean las condiciones iniciales exactas. En el contexto de la teoría del caos y la dinámica no lineal, los atractores ``extraños'' exhiben geometría fractal y una sensibilidad extrema a las condiciones iniciales.
+
+El atractor utilizado en esta animación es el \textbf{Atractor de Clifford}, descubierto y popularizado por el matemático Clifford Pickover a principios de la década de 1990. Este sistema surge del mapeo iterativo de funciones trigonométricas (seno y coseno) sobre un plano bidimensional. Las ecuaciones que describen su comportamiento están definidas por:
+\begin{align}
+    x_{n+1} &= \sin(a y_n) + c \cos(a x_n) \\
+    y_{n+1} &= \sin(b x_n) + d \cos(b y_n)
+\end{align}
+donde $a, b, c$ y $d$ son constantes matemáticas. Alterar estos parámetros cambia fundamentalmente la forma en la que la órbita de los puntos se pliega sobre sí misma.
+
+\textit{Fuente de validación:} Para explorar más sobre la teoría detrás de estos mapeos, es altamente recomendable el texto fundacional \textit{Nonlinear Dynamics and Chaos} de Steven H. Strogatz.
+
+\section{Implementación en Python (Las Ecuaciones)}
+Para implementar este sistema matemático de manera eficiente, utilizamos la biblioteca \textbf{NumPy}. Dado que necesitamos procesar decenas de miles de puntos para crear textura, inicializamos y preasignamos memoria en los arreglos numéricos (arrays) en lugar de usar listas dinámicas de Python puras, optimizando sustancialmente el rendimiento computacional.
+
+\begin{lstlisting}[language=Python]
+import numpy as np
+
+# 1. Definicion de parametros iniciales
+a, b, c, d = -1.4, 1.6, 1.0, 0.7
+n_points = 50000
+
+# 2. Preasignacion de memoria
+x = np.zeros(n_points)
+y = np.zeros(n_points)
+
+# Condiciones iniciales de la trayectoria
+x[0], y[0] = 0.1, 0.1
+
+# 3. Bucle iterativo computando las ecuaciones de Clifford
+for i in range(1, n_points):
+    x[i] = np.sin(a * y[i-1]) + c * np.cos(a * x[i-1])
+    y[i] = np.sin(b * x[i-1]) + d * np.cos(b * y[i-1])
+\end{lstlisting}
+
+\textit{Documentación Oficial:} Se utiliza \href{https://numpy.org/doc/stable/reference/generated/numpy.zeros.html}{\texttt{numpy.zeros}} para la asignación estructurada de memoria y el módulo matemático integrado \href{https://numpy.org/doc/stable/reference/routines.math.html}{\texttt{numpy.sin} / \texttt{numpy.cos}}.
+
+\section{Integración en un Gráfico Estático}
+Para visualizar el resultado de las ecuaciones computadas, integramos los arreglos numéricos resultantes en un gráfico de dispersión bidimensional (\textit{scatter plot}) empleando \textbf{Matplotlib}.
+
+La estética de ``arte matemático'' se logra mapeando cada coordenada $(x_i, y_i)$ con un tamaño de marcador diminuto (\texttt{s=0.2}) y una opacidad sumamente baja (\texttt{alpha=0.3}). Esto simula un renderizado basado en densidad: las regiones donde la trayectoria matemática se cruza frecuentemente acumulan color y se vuelven brillantes, mientras que las visitas esporádicas forman una estela difuminada.
+
+\begin{lstlisting}[language=Python]
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(6, 6), facecolor='black')
+ax.scatter(x, y, s=0.2, color='cyan', alpha=0.3, edgecolors='none')
+ax.axis('off') # Se eliminan los ejes cartesianos por estetica
+plt.show()
+\end{lstlisting}
+
+\textit{Documentación Oficial:} Parámetros estéticos de \href{https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html}{\texttt{matplotlib.pyplot.scatter}}.
+
+\section{Integración Dinámica (La Animación)}
+La animación no consiste en dibujar una figura nueva desde cero por cada cuadro (lo cual sería ineficientemente lento). En su lugar, se envuelve la lógica iterativa dentro de un bucle de tiempo y se actualiza en memoria únicamente el arreglo de datos del objeto \texttt{PathCollection} (el gráfico de dispersión), utilizando la clase \texttt{FuncAnimation}.
+
+\subsection{Mutación de Parámetros}
+Para que la geometría del atractor mute fluidamente de un cuadro a otro, los parámetros matemáticos $a$ y $b$ dejan de ser escalares estáticos para convertirse en funciones continuas del tiempo (\texttt{t}). 
+
+Se estableció una animación a 60 cuadros (frames). El tiempo abstracto avanza de $0$ a $2\pi$ creando un bucle perfecto (loop ininterrumpido):
+\begin{itemize}
+    \item $t = (\frac{\text{frame}}{60}) \times 2\pi$
+    \item $a(t) = -1.4 + 0.2 \sin(t)$
+    \item $b(t) = 1.6 + 0.2 \cos(t)$
+\end{itemize}
+
+El uso desfasado de $\sin$ y $\cos$ (una rotación circular) garantiza que los parámetros cambien gradualmente orbitando alrededor de sus valores base en el espacio de parámetros, provocando que los filamentos del atractor se doblen y reorganicen suavemente.
+
+\begin{lstlisting}[language=Python]
+import matplotlib.animation as animation
+
+# El scatter se instancia vacio originalmente
+scat = ax.scatter([], [], s=0.2, color='cyan', alpha=0.3)
+
+# La funcion se ejecuta por cada cuadro iterativo
+def update(frame):
+    t = (frame / 60.0) * 2 * np.pi 
+    a = -1.4 + 0.2 * np.sin(t)
+    b = 1.6 + 0.2 * np.cos(t)
+    
+    # Recalculamos la trayectoria entera usando el nuevo 'a' y 'b'
+    for i in range(1, n_points):
+        x[i] = np.sin(a * y[i-1]) + c * np.cos(a * x[i-1])
+        y[i] = np.sin(b * x[i-1]) + d * np.cos(b * y[i-1])
+        
+    # Injectamos los nuevos arreglos calculados al objeto de Matplotlib
+    scat.set_offsets(np.c_[x, y])
+    return scat,
+
+# blit=True optimiza la carga computacional dibujando solo lo actualizado
+ani = animation.FuncAnimation(fig, update, frames=60, blit=True)
+\end{lstlisting}
+
+\textit{Documentación Oficial:} Para profundizar en el motor de animación y el parámetro \texttt{blit}, consultar la documentación de \href{https://matplotlib.org/stable/api/_as_gen/matplotlib.animation.FuncAnimation.html}{\texttt{matplotlib.animation.FuncAnimation}}.
+
+\end{document}
