@@ -1,5 +1,5 @@
 # Random Graph Generation
-**Author:** Santiago López Pereyra  
+**Author:** Severino Di Giovanni
 
 ---
 
