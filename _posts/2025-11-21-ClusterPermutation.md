@@ -6,7 +6,7 @@ categories: [Science]
 Imagine you have a dataset that is high-dimensional and highly structured. A
 classic example is EEG data: you have $k = 64$ electrodes placed across the scalp,
 and perhaps you have used them to measure [brain
-connectivity](https://slopezpereyra.github.io/2025-11-18-CrossCorrelation/).
+connectivity](https://dualaspect.github.io/2025-11-18-CrossCorrelation/).
 You've done this for $g_1$ members of a certain group and $g_2$ members of
 another, so that you effectively have two $k \times g_1$ and $k \times g_2$
 matrices with the resulting values. You ask the question: are the members of

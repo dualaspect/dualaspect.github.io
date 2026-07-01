@@ -5,7 +5,7 @@ categories: [Política]
 
 De acuerdo con un [artículo](https://www.timesofisrael.com/predetermined-conclusions-amnesty-israel-workers-slam-parent-groups-genocide-charge/) del *Times of Israel*,
 la rama local de Amnistía Internacional (AI) en Israel 
-rechazó el [reporte](https://slopezpereyra.github.io/2024-12-05-AmnestyIsrael/)
+rechazó el [reporte](https://dualaspect.github.io/2024-12-05-AmnestyIsrael/)
 de AI que encuentra a su país culpable de genocidio.
 El grupo enfatiza que no es claro que Israel esté cometiendo
 sus crímenes con la *intención* de destruir a los palestinos como 

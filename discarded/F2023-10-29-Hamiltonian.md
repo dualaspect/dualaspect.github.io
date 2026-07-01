@@ -106,7 +106,7 @@ determines whether there is a proper Hamiltonian cycle for graph $G$.
 ##### C implementation
 
 For the full `C` implementation, visit the [GitHub
-repo](https://github.com/slopezpereyra/hamiltonianCycle). I made heavy use of
+repo](https://github.com/dualaspect/hamiltonianCycle). I made heavy use of
 custom structs with pointers only to practice memory management. The functions
 of interest for us can be understood without reading the full code, if only one
 considers that a `graph` is represented as a pair of values `V` and `adj_l`,

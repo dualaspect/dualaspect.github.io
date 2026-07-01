@@ -4,7 +4,7 @@ categories: [Política]
 ---
 
 > Este artículo es una traducción directa y poco esmerada de 
-> [este otro](https://slopezpereyra.github.io/2026-01-05-Venezuela/).
+> [este otro](https://dualaspect.github.io/2026-01-05-Venezuela/).
 
 Hace unos días, Estados Unidos llevó a cabo una rápida operación en Venezuela,
 cortando la energía eléctrica, bombardeando instalaciones estratégicas y
@@ -154,7 +154,7 @@ aunque solo sea porque es todo lo que tenemos.
 [8]: https://www.hrw.org/news/2025/12/16/qa-us-military-operations-in-the-caribbean-pacific
 [9]: https://www.theguardian.com/world/2025/nov/12/trump-caribbean-warships-venezuela-conflict
 [10]: https://www.aljazeera.com/news/2025/11/23/airlines-cancel-flights-to-venezuela-amid-us-military-buildup
-[11]: https://slopezpereyra.github.io/2024-12-07-TorturaNi%C3%B1osVen/
+[11]: https://dualaspect.github.io/2024-12-07-TorturaNi%C3%B1osVen/
 [12]: https://www.amnistia.org/en/news/2024/08/27038/venezuela-international-organizations-condemn-the-high-levels-of-violence
 [13]: https://legal.un.org/repertory/art2/english/rep_supp7_vol1_art2_4.pdf
 [14]: https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf

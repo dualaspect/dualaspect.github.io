@@ -236,9 +236,9 @@ probabilidades de victoria.[^1]
 
 En lo que toca a nuestra vida individual, el anarquismo también ofrece una
 perspectiva enriquecedora. La desarrollé con algo de detalle en mi entrada [*On
-individuality*](https://slopezpereyra.github.io/2024-01-24-OnIndividuality/), y
+individuality*](https://dualaspect.github.io/2024-01-24-OnIndividuality/), y
 más someramente en [*On free love and sexual
-freedom*](https://slopezpereyra.github.io/2025-02-11-FreeLove/). Prefiero no
+freedom*](https://dualaspect.github.io/2025-02-11-FreeLove/). Prefiero no
 repetirme: allí está dicho lo poco que sé decir al respecto. Aquí, me limito a
 referir el precioso resumen de Bakunin,
 

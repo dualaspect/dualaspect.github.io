@@ -3,7 +3,7 @@ title: Power spectral density estimation in Julia
 categories: [ Science ]
 ---
 
-In [another entry](https://slopezpereyra.github.io/2024-04-07-PSDInR/), I gave
+In [another entry](https://dualaspect.github.io/2024-04-07-PSDInR/), I gave
 a quick review of the fundamental concepts of power spectral analysis and
 provided R functions for power spectral density (PSD) estimation. This was
 motivated by the fact that, though R is commonly used by social scientists,

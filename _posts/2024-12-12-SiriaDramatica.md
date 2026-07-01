@@ -51,4 +51,4 @@ incesantes violaciones de derechos humanos[^2].
 --- 
 
 [^1]: Trump [reconoció](https://www.bbc.com/mundo/noticias-internacional-47423509) oficialmente los Altos del Golán como territorio israelí.
-[^2]: En [este artículo](https://slopezpereyra.github.io/2024-12-08-WhoAreHTS/) resumo dichas atrocidades y proveo fuentes.
+[^2]: En [este artículo](https://dualaspect.github.io/2024-12-08-WhoAreHTS/) resumo dichas atrocidades y proveo fuentes.

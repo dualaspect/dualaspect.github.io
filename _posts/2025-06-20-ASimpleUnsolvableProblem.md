@@ -13,7 +13,7 @@ function whose derivative is itself? And here comes number $e$!)
 > behind the construction of another, even more perverse question: can one build
 > a program that takes no input and outputs its own source code? I wrote
 > extensively about these programs, termed [ *quines*
-> ](https://slopezpereyra.github.io/2025-06-11-Quines/), whose relationship with
+> ](https://dualaspect.github.io/2025-06-11-Quines/), whose relationship with
 > programs executed with its own source code as input is given by Kleene's
 > recursion theorem.
 

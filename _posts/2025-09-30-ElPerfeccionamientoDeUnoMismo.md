@@ -61,7 +61,7 @@ actuar mejor.
 Esto no es fácil si una persona es sensible, porque de todos los sentimientos
 oscuros, la culpa es el único que se nos inculca falsamente como una virtud.
 He escrito al respecto
-[aquí](https://slopezpereyra.github.io/2024-07-20-OnGuilt/) y no creo que deba
+[aquí](https://dualaspect.github.io/2024-07-20-OnGuilt/) y no creo que deba
 repetirme.
 
 Algunas personas, incluso por cosas menores, como el despertarse tarde o el

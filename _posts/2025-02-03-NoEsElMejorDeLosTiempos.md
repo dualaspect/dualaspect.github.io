@@ -11,7 +11,7 @@ manifiesto](https://ahf-nuclearmuseum-org.translate.goog/ahf/key-documents/russe
 el riesgo de una guerra nuclear (entre otros factores) porque no tienen
 conocimiento de cómo funciona la política. (El hecho de que el boletín de
 científicos atómicos [tenga
-razón](https://slopezpereyra.github.io/2024-11-21-UkraineEscalation/) parece 
+razón](https://dualaspect.github.io/2024-11-21-UkraineEscalation/) parece 
 más relevante.) Mis amigos se encogieron de hombros o expresaron un temor breve
 y pasajero. En las noticias nacionales la noticia pasó totalmente inadvertida;
 en las internacionales fue mencionada pero sin mayor atención.

@@ -4,7 +4,7 @@ categories: [Personal]
 ---
 
 > C'est une traduction de [«Las
-> luciérnagas»](https://slopezpereyra.github.io/2026-04-02-Luciernagas/) que
+> luciérnagas»](https://dualaspect.github.io/2026-04-02-Luciernagas/) que
 > j'ai faite pour pratiquer mon français. 
 
 Les souvenirs sont des lucioles qui s'allument et s'éteignent dans l'obscurité

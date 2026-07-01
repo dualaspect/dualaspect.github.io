@@ -4,7 +4,7 @@ categories: [Personal]
 ---
 
 Al repasar las [obras de Goltzius sobre *Las
-metamorfosis*](https://slopezpereyra.github.io/2026-01-23-Goltzius/),
+metamorfosis*](https://dualaspect.github.io/2026-01-23-Goltzius/),
 mencionamos el viaje de Cadmo en busca de Europa y su victoria contra el dragón
 sagrado de Marte. Pero en el *ethos* griego no existe ascenso sin caída ni
 gloria sin precio, y lo que no mencioné al repasar las ilustraciones de Goltzius

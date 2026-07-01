@@ -14,8 +14,8 @@ biophysical mechanisms are involved in generating this electric fluctuation.
 </p>
 
 I have reviewed elsewhere a few integrate-and-fire models, such as the
-[Leaky](https://slopezpereyra.github.io/2024-01-01-Leaky/) and
-[Adaptive](https://slopezpereyra.github.io/2024-01-01-Adaptive/) models. These
+[Leaky](https://dualaspect.github.io/2024-01-01-Leaky/) and
+[Adaptive](https://dualaspect.github.io/2024-01-01-Adaptive/) models. These
 treat the conductance of a given current as a constant $g$ and model action
 potentials as sudden spikes that appear whenever the membrane potential
 surpasses a certain threshold. In reality, conductances are not constant and vary
@@ -34,7 +34,7 @@ the model, it reflects actual (but highly complex) cellular mechanisms.
 ---
 
 *Basic mechanism*. As noted in [Notes on computational
-neuroscience](https://slopezpereyra.github.io/2023-03-26-CompNeuro/), at least
+neuroscience](https://dualaspect.github.io/2023-03-26-CompNeuro/), at least
 two types of voltage-dependent ion channels are required to evoke an action
 potential in a neuron. Sodium channels open up in response to an increase of the
 membrane potential—for example, due to the opening of neurotransmitter-gated

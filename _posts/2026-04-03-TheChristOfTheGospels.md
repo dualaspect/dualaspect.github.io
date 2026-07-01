@@ -95,7 +95,7 @@ are the assumptions which inspire it, as well as some of their implications with
 regards to our own personal relationship with Christ. The social and political
 implications of this doctrine are equally important, and derive—as far as I can
 see—directly from the teachings of Jesus. I have discussed them [somewhere
-else](https://slopezpereyra.github.io/2026-02-28-EthicalChristianism/), though
+else](https://dualaspect.github.io/2026-02-28-EthicalChristianism/), though
 in more lax and autobiographical fashion. The only thing I should wish to
 repeat, considering it the most crucial, is that the teachings of Jesus entail
 the principle of non-resistance to evil, which provides a cornerstone for social

@@ -177,7 +177,7 @@ There is another sense in which Nietzsche's view is incomplete. His critique is
 based solely on the reception of a stimuli and its consequent elaboration.
 However, the problem becomes even harder when we consider that we also carry
 within us «aprioristic» faculties and, I dare to say, representations. In 
-[On archetypes](https://slopezpereyra.github.io/2023-11-07-OnArchetypes/) I
+[On archetypes](https://dualaspect.github.io/2023-11-07-OnArchetypes/) I
 discussed an example given by Campbell in *The Masks of God: Primitive Mythology*:
 
 > Chicks with their eggshells still adhering to their tails dart for cover when

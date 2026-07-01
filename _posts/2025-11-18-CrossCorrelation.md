@@ -297,7 +297,7 @@ scenarios. One scenario had «true synchrony», i.e. non-zero phase lag
 synchronyzation with $\phi\_{lag} = \pi / 2$ (90 degrees). The other scenario
 had $\phi\_{lag} = 0$, simulating a spurious synchronyzation caused by volume
 conduction. For each scenario, I used the `compute_wpli` function from my
-[EEGToolkit](https://slopezpereyra.github.io/EEGToolkit.jl/dev/) scientific
+[EEGToolkit](https://dualaspect.github.io/EEGToolkit.jl/dev/) scientific
 packakge to estimate wPLI between the simulated signals. These were the results:
 
 

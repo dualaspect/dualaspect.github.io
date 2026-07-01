@@ -7,7 +7,7 @@ El lenguaje importa y deberíamos aspirar a ser precisos. Los medios de
 comunicación, occidentales y no occidentales, expresan cierto optimismo con el
 gobierno provisorio del HTS[^1], al que se refieren como "grupo rebelde". Reconozco que el término "terrorista" carece de seriedad —si lo usáramos
 seriamente no quedaría gobierno exento—, pero el HTS
-[satisface](https://slopezpereyra.github.io/2024-12-08-WhoAreHTS/) toda
+[satisface](https://dualaspect.github.io/2024-12-08-WhoAreHTS/) toda
 definición posible del término. Caracterizarlo de "grupo rebelde" es darle un
 elogio inmerecido. 
 

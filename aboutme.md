@@ -11,7 +11,7 @@ novel mathematical model of intracortical inhibition/facilitation and its
 potential to predicte depression and slow-wave sleep deprivation using random
 forests. I have presented this research at the SLEEP 2024 conference, held in
 Houston, Texas. I am also the developer and maintainer of an official [Julia
-package](https://slopezpereyra.github.io/EEGToolkit.jl/dev/) for EEG analysis.
+package](https://dualaspect.github.io/EEGToolkit.jl/dev/) for EEG analysis.
 
 My intellectual life, however, is hardly limited to neuroscience or computer
 science. Originally, I wanted to major in philosophy, to the study of which I

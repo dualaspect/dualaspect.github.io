@@ -4,7 +4,7 @@ categories: [ Science ]
 ---
 
 In a [Leaky integrate-and-fire neuron
-model](https://slopezpereyra.github.io/2024-01-01-Leaky/), we discussed a simple
+model](https://dualaspect.github.io/2024-01-01-Leaky/), we discussed a simple
 model of action potential generation based on Lapicque's work. Some neurons, for
 example cortical pyramidal cells, show a slight decrease in their firing rate
 after each spike. This phenomenon is termed spike-rate adaption.
@@ -96,7 +96,7 @@ If $t = 0$ then $V(0) = (A - u)/w$ from which follows $A= V(0)w+u$.
 
 This is sufficient for us to implement our model. We will use the same
 parameters as in  [Leaky integrate-and-fire neuron
-model](https://slopezpereyra.github.io/2024-01-01-Leaky/) for the leaky current.
+model](https://dualaspect.github.io/2024-01-01-Leaky/) for the leaky current.
 The $K^{+}$ adaptation-inducing current is modeled with a conductance of $100$,
 $\tau_{sra} = 1, Δg_{sra} = 40, r_{m} = 0.1$ and $E_K = -70$. Except for the
 equilibrium potential of $K^{+}$, the other parameters were not selected to

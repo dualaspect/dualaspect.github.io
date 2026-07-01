@@ -30,7 +30,7 @@ $$
 
 where $I_e$ is an external current and $I_{ion} = g_{ion}(V - E_{ion})$. (A more
 detailed description of these relations is given in [Notes on computational
-neuroscience](https://slopezpereyra.github.io/2023-03-26-CompNeuro/)) Since our model only considers a leaky current, the previous identity is simply
+neuroscience](https://dualaspect.github.io/2023-03-26-CompNeuro/)) Since our model only considers a leaky current, the previous identity is simply
 
 $$
 c_m \frac{dV}{dt} =g_{leak}(V - E_{leak}) + \frac{I_e}{A}

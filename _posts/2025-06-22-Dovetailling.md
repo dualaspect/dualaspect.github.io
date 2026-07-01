@@ -63,7 +63,7 @@ This entails that if $x \in K_1$, then $\pi^c_k(x) \in W_{\pi^c_k(x)}$, which
 means that $\pi^c_k(x) \in K$. If $x \not\in K_1$, clearly $\pi^c_k(x) \not\in
 W_{\pi^c_k(x)}$, since said domain is the empty set, and $\pi^c_k(x) \not\in K$.
 The function $\pi^c_k$ can be effectively transformed to an injective function
-using the padding lemma (see [ this entry ](https://slopezpereyra.github.io/2025-06-22-PaddingLemmaInjection/)). 
+using the padding lemma (see [ this entry ](https://dualaspect.github.io/2025-06-22-PaddingLemmaInjection/)). 
 (Alternatively, the function $g_k(x) = \pi_k^x(x)$ is obviously injective). This
 suffices to show that $K_1$ is one-one reducible to $K$.
 
