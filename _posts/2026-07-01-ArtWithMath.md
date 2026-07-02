@@ -5,30 +5,31 @@ categories: [Personal, Science]
 
 Las matemáticas y la programación son, a mi juicio, una forma de la poesía. La
 programación se condice tanto con esta definición que incluso se escribe en
-verso, aunque esta sea la similitud más superficial entre ambas. Lo
-cierto es que la poesía, o al menos la buena poesía, satisface ciertas
-propiedades que las matemáticas y el código también: $(a)$ es doblemente
-susceptible a una apreciación abstracta y a una apreciación visual; $(b)$ aunque
-cada unidad (variable, línea de código, verso) sirva a un único sentido, su
-papel semántico nunca es del todo unívoco; $(c)$ en última instancia, el
-contenido o la semántica sirve, por sobre todo, a revelar una forma o una
-estructura, como expresó el propio Mallarmé en su poema *Salut*:
+verso, aunque esta sea la similitud más superficial entre ambas. Lo cierto es
+que la poesía, o al menos la buena poesía, satisface ciertas propiedades que las
+matemáticas y el código también: $(a)$ es doblemente susceptible a una
+apreciación abstracta y a una apreciación visual; $(b)$ aunque cada unidad
+(variable, línea de código, verso) sirva a un único sentido, su papel semántico
+nunca es del todo unívoco; $(c)$ en última instancia, el contenido o la
+semántica sirve, por sobre todo, a revelar una forma o una estructura, como
+expresó el propio Mallarmé en su poema *Salut*:
 
 >Rien, cette écume, vierge vers<br>
 >À ne désigner que la coupe
 
 Esta lista no es exhaustiva, pero acaso baste para inspirar la idea de que una
 matemática o una programación artística son posibles. Y eso es lo que deseo
-exponer en este escrito con un ejemplo concreto.
+exponer en este escrito con algunos ejemplos.
 
-Nuestra historia comienza con un concepto que me es ajeno desde una perspectiva
-técnica: el de atractor. Matemáticamente hablando, dado un sistema dinámico $S$,
-un atractor es el conjunto de estados a los cuales el sistema tiende a
-evolucionar incluso partiendo desde condiciones iniciales muy diversas. La
-definición formal de un atractor no es particularmente compleja, por ricas que
-sean las propiedades del concepto. En general, si $f(t, \vec{x})$ describe un
-sistema que en el tiempo $t$ está parametrizado en $\vec{x}$, un atractor es un
-subconjunto $A$ del conjunto de estados posibles $S$ que satisface:
+Nuestra historia comienza con un concepto que, hasta involucrarme con la
+producción matemática de patrones artísticos, me era ajeno: el de *atractor*.
+Matemáticamente hablando, dado un sistema dinámico $S$, un atractor es el
+conjunto de estados a los cuales el sistema tiende a evolucionar incluso
+partiendo desde condiciones iniciales muy diversas. La definición formal de un
+atractor no es particularmente compleja, por ricas que sean las propiedades del
+concepto. En general, si $f(t, \vec{x})$ describe un sistema que en el tiempo
+$t$ está parametrizado en $\vec{x}$, un atractor es un subconjunto $A$ del
+conjunto de estados posibles $S$ que satisface:
 
 - Si $a \in A$, entonces $f(t, a) \in A$ para $t > 0$. En lenguaje humano, si el
 sistema está en un estado atractor, seguirá estándolo en el futuro.
@@ -87,11 +88,63 @@ $$C_i = \sin(x_i \cdot a) + \cos(y_i \cdot b)$$
 
 --- 
 
-Este escrito ha sido esquemático y no ha pretendido ser más que eso. Existen
-otros métodos matemáticos para generar patrones bellos, como por ejemplo
-ilustrar las raíces de ciertos polinomios complejos. Baste este pequeño ejemplo
-con las ecuaciones de Clifford para mostrar, una vez más, la poesía de las
-matemáticas.
+Existe un segundo método, relativamente más complejo, para generar patrones
+visualmente interesantes. Este método consiste en definir una matriz $A(t_1,
+t_2) \in \mathbb{C}^{n \times n}$, donde $t_1, t_2$ son parámetros que definen
+dos coeficientes variables de la misma. Si $t_1, t_2$ se muestrean de manera
+uniforme en un intervalo $[a, b]$, de manera que $A(t_1, t_2)$ conforme una
+matriz aleatoria, entonces para cada par $\vec{t}$ existe un vector propio
+$\vec{v}$ y un valor propio $\lambda$ que satisfacen 
+
+$$
+A(t_1, t_2) \vec{v} = \lambda \vec{v}
+$$
+
+Cada autovalor $\lambda = x + iy$, por ser complejo, define un par de
+coordenadas $(\text{Re}(\lambda), \text{Im}(\lambda))$ que pueden graficarse en
+un plano bidimensional. El algoritmo de generación es simple: muestrear $N$
+matrices $A(t_1, t_2)$, calcular sus autovalores y graficar el par de
+coordenadas determinado por cada uno.
+
+Analíticamente hablando, el polinomio característico de una matriz en un espacio
+de dimensión $n \geq 5$ es frecuentemente imposible de resolver. Por eso el
+cálculo de los autovalores se hace mediante métodos numéricos, como el método
+QR, que `numpy` implementa.
+
+**Input:**
+- Matriz paramétrica $A(t_1, t_2)$
+- Espacio de muestreo $[a, b]$
+- Número de iteraciones $N$
+
+**Output:**
+- Plot en 2D de la densidad espectral (fancy para "de los autovalores") de
+$A(t_1, t_2)$
+
+```text
+P ← ∅
+
+for k = 1 to N do
+    Sample t₁ ~ U(a, b)
+    Sample t₂ ~ U(a, b)
+
+    Aₖ ← A(t₁, t₂)
+
+    Λₖ ← eigvals(Aₖ) 
+
+    for each λ ∈ Λₖ do
+        x ← Re(λ)
+        y ← Im(λ)
+        P ← P ∪ {(x, y)}
+    end for
+end for
+
+Plotear P en ℝ² con un scatter plot de opacidad baja (α ≪ 1).
+```
+
+
+
+
+
 
 
 
