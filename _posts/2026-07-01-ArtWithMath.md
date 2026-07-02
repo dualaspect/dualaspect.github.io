@@ -3,28 +3,30 @@ title: Creando arte con matemáticas
 categories: [Personal, Science]
 ---
 
-Las matemáticas y la programación son, a mi juicio, una forma de la poesía. La
-programación se condice tanto con esta definición que incluso se escribe en
-verso, aunque esta sea la similitud más superficial entre ambas. Lo cierto es
-que la poesía, o al menos la buena poesía, satisface ciertas propiedades que las
-matemáticas y el código también: $(a)$ es doblemente susceptible a una
-apreciación abstracta y a una apreciación visual; $(b)$ aunque cada unidad
-(variable, línea de código, verso) sirva a un único sentido, su papel semántico
-nunca es del todo unívoco; $(c)$ en última instancia, el contenido o la
-semántica sirve, por sobre todo, a revelar una forma o una estructura, como
-expresó el propio Mallarmé en su poema *Salut*:
+Las matemáticas y la programación son una forma de la poesía. La programación se
+condice tanto con esta definición que incluso se escribe en verso, aunque esta
+sea la evidencia más superficial. Lo cierto es que estas disciplinas satisfacen
+ciertas propiedades que la poesía, o al menos la buena poesía, también: ser
+doblemente susceptible a una apreciación abstracta y a una apreciación visual;
+que, aunque cada unidad (variable, línea de código, verso) sirva a un único
+sentido, ninguna juegue un papel semántico del todo unívoco; que el contenido o
+la semántica sirva, por sobre todo, al propósito de revelar una forma o una
+estructura, como expresó el propio Mallarmé en su poema *Salut*:
 
 >Rien, cette écume, vierge vers<br>
 >À ne désigner que la coupe
 
-Esta lista no es exhaustiva, pero acaso baste para inspirar la idea de que una
-matemática o una programación artística son posibles. Y eso es lo que deseo
-exponer en este escrito con algunos ejemplos.
+Esta enumeración no es exhaustiva, pero acaso baste para inspirar la idea no de
+que una matemática o una programación artística son posibles, sino más bien de
+que las expresiones "matemática artística" y "programación artística" son
+tautológicas. 
 
-Nuestra historia comienza con un concepto que, hasta involucrarme con la
-producción matemática de patrones artísticos, me era ajeno: el de *atractor*.
-Matemáticamente hablando, dado un sistema dinámico $S$, un atractor es el
-conjunto de estados a los cuales el sistema tiende a evolucionar incluso
+En este escrito, voy a mostrar algunos casos extremos en que es indudable que
+las matemáticas y la programación producen patrones visuales dignos de ser
+llamados arte. Y la historia comienza con un concepto que, hasta involucrarme
+con la producción matemática de patrones artísticos, me era ajeno: el de
+*atractor*. Matemáticamente hablando, dado un sistema dinámico $S$, un atractor
+es el conjunto de estados a los cuales el sistema tiende a evolucionar incluso
 partiendo desde condiciones iniciales muy diversas. La definición formal de un
 atractor no es particularmente compleja, por ricas que sean las propiedades del
 concepto. En general, si $f(t, \vec{x})$ describe un sistema que en el tiempo
@@ -60,7 +62,10 @@ en un orden interesante. El conjunto de coordenadas en torno a las cuales los
 puntos se agrupan conforman el atractor, y el patrón obtenido es hermoso. Por
 ejemplo:
 
-![Clifford](../Images/Clifford1.png)
+<p align="center">
+    <img src="../Images/Clifford1.png" width="65%" style="border: 2px solid #231709;">
+</p>
+
 
 Esta es la esencia de cómo los atractores nos permiten generar imágenes
 hermosas: en un espacio bidimensional, la simulación de cualquier sistema
@@ -84,7 +89,9 @@ $$C_i = \sin(x_i \cdot a) + \cos(y_i \cdot b)$$
 
 ¿El resultado? Esta hermosura.
 
-![CliffordAnimation](../Images/clifford_dynamic_colors.gif)
+<p align="center">
+    <img src="../Images/clifford_dynamic_colors.gif" width="100%" style="border: 6px solid #231709;">
+</p>
 
 --- 
 
@@ -111,6 +118,7 @@ de dimensión $n \geq 5$ es frecuentemente imposible de resolver. Por eso el
 cálculo de los autovalores se hace mediante métodos numéricos, como el método
 QR, que `numpy` implementa.
 
+```
 **Input:**
 - Matriz paramétrica $A(t_1, t_2)$
 - Espacio de muestreo $[a, b]$
@@ -120,7 +128,6 @@ QR, que `numpy` implementa.
 - Plot en 2D de la densidad espectral (fancy para "de los autovalores") de
 $A(t_1, t_2)$
 
-```text
 P ← ∅
 
 for k = 1 to N do
@@ -141,10 +148,26 @@ end for
 Plotear P en ℝ² con un scatter plot de opacidad baja (α ≪ 1).
 ```
 
+Usando esta técnica podemos generar el patrón que a mí me gusta llamar *El
+Eigenmensch*, juego tonto con el Übermensch de Nietzsche. Esta figura fue
+producida por Simone Conradi, sin dudas el mayor talento artístico de las
+matemáticas, y yo no hice más que reproducirla en mi propia computadora.
 
+<p align="center">
+    <img src="../Images/EigenMan.png" width="65%" style="border: 2px solid #231709;">
+</p>
 
+Esta figura surge si se toma la matriz 
 
-
+$$
+A(t_1, t_2) := \begin{pmatrix}
+0      & -10i & -10i & t_1 & t_2 \\\\
+10i    & 0    & 10i  & 0   & 10i \\\\
+-0.1   & 10i  & 10i  & 0   & 0 \\\\
+-10i   & 10i  & 0    & 10i & -10i \\\\
+0      & 0    & 0    & -0.1 & 10i
+\end{pmatrix}
+$$
 
 
 
