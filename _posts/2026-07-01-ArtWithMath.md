@@ -16,10 +16,9 @@ estructura, como expresó el propio Mallarmé en su poema *Salut*:
 >Rien, cette écume, vierge vers<br>
 >À ne désigner que la coupe
 
-Esta enumeración no es exhaustiva, pero acaso baste para inspirar la idea no de
-que una matemática o una programación artística son posibles, sino más bien de
-que las expresiones "matemática artística" y "programación artística" son
-tautológicas. 
+Esta enumeración no es exhaustiva, pero acaso baste para inspirar la idea de que
+una matemática o una programación artística no solo son posibles, sino que las
+expresiones "matemática artística" y "programación artística" son tautológicas. 
 
 En este escrito, voy a mostrar algunos casos extremos en que es indudable que
 las matemáticas y la programación producen patrones visuales dignos de ser
@@ -66,6 +65,22 @@ ejemplo:
     <img src="../Images/Clifford1.png" width="65%" style="border: 2px solid #231709;">
 </p>
 
+
+<p align="center">
+    <img src="../Images/pretty_with_text.png" width="65%" style="border: 2px solid #231709;">
+</p>
+
+<p align="center">
+    <img src="../Images/pretty_with_text_2.png" width="65%" style="border: 2px solid #231709;">
+</p>
+
+<p align="center">
+    <img src="../Images/pretty_with_text_3.png" width="65%" style="border: 2px solid #231709;">
+</p>
+
+<p align="center">
+    <img src="../Images/pretty_with_text_4.png" width="65%" style="border: 2px solid #231709;">
+</p>
 
 Esta es la esencia de cómo los atractores nos permiten generar imágenes
 hermosas: en un espacio bidimensional, la simulación de cualquier sistema
