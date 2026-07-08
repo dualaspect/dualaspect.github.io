@@ -1,0 +1,258 @@
+\documentclass[11pt,openany]{article}
+
+%=========================================================
+%                     PAGE LAYOUT
+%=========================================================
+
+\usepackage[
+    paper=a4paper,
+    margin=2.8cm
+]{geometry}
+
+\pagestyle{empty}
+
+%=========================================================
+%                     FONTS
+%=========================================================
+
+% Compile with LuaLaTeX or XeLaTeX
+\usepackage{fontspec}
+
+\setmainfont{EB Garamond}
+\setsansfont{Inter}
+\setmonofont{JetBrains Mono}
+
+%=========================================================
+%                     COLORS
+%=========================================================
+
+\usepackage{xcolor}
+
+% Soft charcoal instead of absolute black
+\definecolor{GalleryBlack}{HTML}{151515}
+
+% Warm white
+\definecolor{GalleryWhite}{HTML}{F5F3EE}
+
+% Muted gray
+\definecolor{CaptionGray}{HTML}{B5B5B5}
+
+\pagecolor{GalleryBlack}
+\color{GalleryWhite}
+
+%=========================================================
+%                     GRAPHICS
+%=========================================================
+
+\usepackage{graphicx}
+\usepackage{tikzpagenodes}
+
+%=========================================================
+%                     MICROTYPOGRAPHY
+%=========================================================
+
+\usepackage{microtype}
+
+%=========================================================
+%                     SPACING
+%=========================================================
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%=========================================================
+%                     PAGE NUMBER
+%=========================================================
+
+\newcounter{artpage}
+
+\newcommand{\PageMark}{
+    \stepcounter{artpage}
+
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[
+            anchor=south east,
+            text=CaptionGray,
+            font=\sffamily\small
+        ]
+        at ([xshift=-1.2cm,yshift=1cm]current page.south east)
+        {\theartpage};
+    \end{tikzpicture}
+}
+
+%=========================================================
+%                     TITLE PAGE
+%=========================================================
+
+\newcommand{\TitlePage}{
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\begin{center}
+
+{\fontsize{38}{42}\selectfont\bfseries Strange Attractors}
+
+\vspace{0.8cm}
+
+{\Large A Visual Exploration of Dynamical Systems}
+
+\vspace{2cm}
+
+{\large Santiago López}
+
+\vspace{0.5cm}
+
+{\small 2026}
+
+\end{center}
+
+\vspace*{\fill}
+
+\newpage
+
+}
+
+%=========================================================
+%                     SECTION PAGE
+%=========================================================
+
+\newcommand{\SectionPage}[1]{
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+{\Huge\bfseries #1}
+
+\vspace{0.4cm}
+
+\textcolor{CaptionGray}{
+A collection of generative artworks inspired by nonlinear dynamics.
+}
+
+\vspace*{\fill}
+
+\newpage
+
+}
+
+%=========================================================
+%                     ARTWORK PAGE
+%=========================================================
+
+\newcommand{\Artwork}[4]{
+
+% #1 Title
+% #2 Image
+% #3 Medium
+% #4 Description
+
+\thispagestyle{empty}
+
+\vspace*{0.8cm}
+
+\begin{center}
+
+\includegraphics[
+    width=.88\paperwidth,
+    height=.72\paperheight,
+    keepaspectratio
+]{#2}
+
+\end{center}
+
+\vfill
+
+{\Large\bfseries #1}
+
+\vspace{0.35cm}
+
+{\small\color{CaptionGray}#3}
+
+\vspace{0.8cm}
+
+\begin{minipage}{0.78\textwidth}
+\small
+#4
+\end{minipage}
+
+\PageMark
+
+\newpage
+
+}
+
+%=========================================================
+%=========================================================
+
+\begin{document}
+
+%---------------------------------------------------------
+% COVER
+%---------------------------------------------------------
+
+\TitlePage
+
+%---------------------------------------------------------
+% FIRST SECTION
+%---------------------------------------------------------
+
+\SectionPage{Genesis}
+
+%---------------------------------------------------------
+% ARTWORKS
+%---------------------------------------------------------
+
+\Artwork
+{Rosas ardiendo sobre el agua}
+{../Images/RosyAttractor.jpg}
+{Digital generative artwork}
+{A turbulent bloom emerging from a nonlinear dynamical system. The apparent
+symmetry dissolves under closer inspection into an intricate web of unstable
+orbits and recurring structures.}
+
+\Artwork
+{Patronus}
+{../Images/sawtooth_3.png}
+{Digital generative artwork}
+{An attractor produced through an oscillating parameter regime. The geometry
+suggests the apparition of a luminous figure suspended within chaos.}
+
+\Artwork
+{Family Net}
+{../Images/pretty_with_text.png}
+{Digital generative artwork}
+{Dense filaments intertwine into a structure reminiscent of biological
+connectivity, where each trajectory reinforces the emergence of an invisible
+architecture.}
+
+%---------------------------------------------------------
+% SECOND SECTION
+%---------------------------------------------------------
+
+\SectionPage{Metamorphosis}
+
+\Artwork
+{Uroboros}
+{../Images/pretty_with_text_2.png}
+{Digital generative artwork}
+{The attractor folds onto itself repeatedly, suggesting an endless cycle of
+creation and dissolution.}
+
+\Artwork
+{Life in Search of Matter}
+{../Images/pretty_with_text_3.png}
+{Digital generative artwork}
+{A slow accumulation of trajectories evokes the appearance of living tissue
+forming from deterministic equations.}
+
+\Artwork
+{Soul Council}
+{../Images/pretty_with_text_4.png}
+{Digital generative artwork}
+{Multiple regions coexist in delicate equilibrium, each one influencing the
+others without ever collapsing into uniformity.}
+
+\end{document}
