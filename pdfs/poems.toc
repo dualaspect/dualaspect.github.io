@@ -4,46 +4,52 @@
 \contentsline {subsection}{Desprecio}{9}{}%
 \contentsline {subsection}{Todo ya ha sido escrito}{10}{}%
 \contentsline {subsection}{Un árbol era mi sueño}{11}{}%
-\contentsline {subsection}{A mí mismo}{12}{}%
-\contentsline {subsection}{Éramos libres}{13}{}%
-\contentsline {subsection}{Desde lejos}{14}{}%
-\contentsline {subsection}{Una esmeralda negra}{15}{}%
-\contentsline {subsection}{Pasará}{16}{}%
-\contentsline {subsection}{Debe pagarse el sueño de los muertos}{17}{}%
-\contentsline {subsection}{De tiempo todo está lleno}{18}{}%
-\contentsline {subsection}{Hastío}{19}{}%
-\contentsline {subsection}{Soñé con todas las almas}{20}{}%
-\contentsline {subsection}{Selene}{21}{}%
-\contentsline {subsection}{Los mitos y los sueños}{23}{}%
-\contentsline {subsection}{Nacimiento}{24}{}%
-\contentsline {subsection}{La sangre no descansa}{25}{}%
-\contentsline {subsection}{Génesis}{26}{}%
-\contentsline {subsection}{El mal remedio}{27}{}%
-\contentsline {subsection}{Here as we timeless lay}{28}{}%
-\contentsline {subsection}{Eras como la aurora}{29}{}%
-\contentsline {subsection}{Visión}{30}{}%
-\contentsline {subsection}{A portrait of the artist}{31}{}%
-\contentsline {subsection}{Primer sueño}{32}{}%
-\contentsline {subsection}{Despedida}{33}{}%
-\contentsline {subsection}{Historia de un abandono}{34}{}%
-\contentsline {subsection}{Un poema español}{35}{}%
-\contentsline {subsection}{Cementerio}{36}{}%
-\contentsline {subsection}{Rajastán}{37}{}%
-\contentsline {subsection}{Promesa}{38}{}%
-\contentsline {subsection}{A una muerta}{39}{}%
-\contentsline {subsection}{¿Desde cuándo?}{40}{}%
-\contentsline {subsection}{Natalicio}{41}{}%
-\contentsline {subsection}{Mi casa}{42}{}%
-\contentsline {subsection}{Al hogar familiar}{43}{}%
-\contentsline {subsection}{Es tu última tormenta}{44}{}%
-\contentsline {subsection}{What if they see me}{45}{}%
-\contentsline {subsection}{A un ídolo de piedra}{46}{}%
-\contentsline {subsection}{Sólo el amor aguarda}{47}{}%
-\contentsline {subsection}{Cuento infantil}{48}{}%
-\contentsline {subsection}{Todas las rosas son la de tu huerta}{50}{}%
-\contentsline {subsection}{Paraná}{51}{}%
-\contentsline {subsection}{En casa de mi padre}{52}{}%
-\contentsline {subsection}{Algo}{53}{}%
-\contentsline {subsection}{La aurora de tu muerte}{54}{}%
-\contentsline {subsection}{Los sueños}{55}{}%
-\contentsline {subsection}{No love goes to waste}{56}{}%
+\contentsline {subsection}{Diez de noviembre}{12}{}%
+\contentsline {subsection}{A mí mismo}{13}{}%
+\contentsline {subsection}{Éramos libres}{14}{}%
+\contentsline {subsection}{Desde lejos}{15}{}%
+\contentsline {subsection}{Una esmeralda negra}{16}{}%
+\contentsline {subsection}{Pasará}{17}{}%
+\contentsline {subsection}{Debe pagarse el sueño de los muertos}{18}{}%
+\contentsline {subsection}{De tiempo todo está lleno}{19}{}%
+\contentsline {subsection}{Hastío}{20}{}%
+\contentsline {subsection}{Soñé con todas las almas}{21}{}%
+\contentsline {subsection}{Selene}{22}{}%
+\contentsline {subsection}{Los mitos y los sueños}{24}{}%
+\contentsline {subsection}{Nacimiento}{25}{}%
+\contentsline {subsection}{La sangre no descansa}{26}{}%
+\contentsline {subsection}{Génesis}{27}{}%
+\contentsline {subsection}{El mal remedio}{28}{}%
+\contentsline {subsection}{Here as we timeless lay}{29}{}%
+\contentsline {subsection}{Eras como la aurora, penumbra y mediodía}{30}{}%
+\contentsline {subsection}{Eras como la aurora, que es madre del rocío}{31}{}%
+\contentsline {subsection}{Visión}{32}{}%
+\contentsline {subsection}{A portrait of the artist}{33}{}%
+\contentsline {subsection}{Primer sueño}{34}{}%
+\contentsline {subsection}{Despedida}{35}{}%
+\contentsline {subsection}{Historia de un abandono}{36}{}%
+\contentsline {subsection}{Un poema español}{37}{}%
+\contentsline {subsection}{Cementerio}{38}{}%
+\contentsline {subsection}{Rajastán}{39}{}%
+\contentsline {subsection}{Promesa}{40}{}%
+\contentsline {subsection}{A una muerta}{41}{}%
+\contentsline {subsection}{¿Desde cuándo?}{42}{}%
+\contentsline {subsection}{Natalicio}{43}{}%
+\contentsline {subsection}{Mi casa}{44}{}%
+\contentsline {subsection}{Al hogar familiar}{45}{}%
+\contentsline {subsection}{Es tu última tormenta}{46}{}%
+\contentsline {subsection}{What if they see me}{47}{}%
+\contentsline {subsection}{Cerca del cementerio}{48}{}%
+\contentsline {subsection}{A un ídolo de piedra}{49}{}%
+\contentsline {subsection}{Sólo el amor aguarda}{50}{}%
+\contentsline {subsection}{Cuento infantil}{51}{}%
+\contentsline {subsection}{Todas las rosas son la de tu huerta}{53}{}%
+\contentsline {subsection}{Paraná}{54}{}%
+\contentsline {subsection}{En casa de mi padre}{55}{}%
+\contentsline {subsection}{This life of mine}{56}{}%
+\contentsline {subsection}{Los corazones se buscan}{57}{}%
+\contentsline {subsection}{Enseñanza}{58}{}%
+\contentsline {subsection}{Algo}{59}{}%
+\contentsline {subsection}{La aurora de tu muerte}{60}{}%
+\contentsline {subsection}{Los sueños}{61}{}%
+\contentsline {subsection}{No love goes to waste}{62}{}%
